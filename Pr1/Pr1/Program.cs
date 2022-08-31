@@ -1,5 +1,10 @@
 ﻿using System;
 
+string answer1;
+string answer2;
+string answer3;
+
+
 int points = 0;
 Console.WriteLine("Välkommen till Mickes transformers-frågesport!");
 
@@ -7,7 +12,7 @@ Console.WriteLine("Välkommen till Mickes transformers-frågesport!");
 
 Console.WriteLine("1: Vad gillar Bakk att käka till lunch?");
 Console.WriteLine("a) Nyttig mat  b) Ben & Jerry  c) Normal mat");
-string answer1 = Console.ReadLine();
+answer1 = Console.ReadLine();
 if (answer1 == "b")
 {
   points++;
@@ -22,7 +27,7 @@ else
 
 Console.WriteLine("2: Vad är bakks dröm?");
 Console.WriteLine("a) Att bli väl tränad  b) Att få en partner  c) Att bli smällfet");
-string answer2 = Console.ReadLine();
+answer2 = Console.ReadLine();
 if (answer2 == "c")
 {
   points++;
@@ -37,7 +42,7 @@ else
 
 Console.WriteLine("3: Vad kommer bullen Bakk jobba med i framtiden?");
 Console.WriteLine("a) Spelutvecklare på Fortnite b) Sopgubbe  c) Civil ingenjör");
-string answer3 = Console.ReadLine();
+answer3 = Console.ReadLine();
 if (answer3 == "a")
 {
   points++;
